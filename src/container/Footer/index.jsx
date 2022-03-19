@@ -36,7 +36,7 @@ const Footer = () => {
   };
 
   const validateEmail = (mail) => {
-    var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var mailFormat = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
     return mail.match(mailFormat);
   };
 
